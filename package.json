@@ -1,0 +1,24 @@
+{
+  "name": "primitive",
+  "module": "src/index.ts",
+  "scripts": {
+    "dev": "bun --watch run http.ts",
+    "start": "bun run http.ts"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@flydotio/dockerfile": "^0.5.9",
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "sharp": "^0.33.5",
+    "sqip": "^1.0.0-alpha.51",
+    "sqip-plugin-blurhash": "^1.0.0-alpha.10",
+    "sqip-plugin-data-uri": "^1.0.0-alpha.52",
+    "sqip-plugin-primitive": "^1.0.0-alpha.53",
+    "sqip-plugin-svgo": "^1.0.0-alpha.54"
+  }
+}
